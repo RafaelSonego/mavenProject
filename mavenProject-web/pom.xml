@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>br.com.rafaelsonego.mavenProject</groupId>
+		<groupId>com.rafaelsonego.mavenProject</groupId>
 		<artifactId>mavenProject</artifactId>
 		<relativePath>../mavenProject/pom.xml</relativePath>
 		<version>1.0.0-SNAPSHOT</version>
@@ -13,7 +13,7 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>br.com.rafaelsonego.mavenProject</groupId>
+			<groupId>com.rafaelsonego.mavenProject</groupId>
 			<artifactId>mavenProject-core</artifactId>
 			<version>1.0.0-SNAPSHOT</version>
 			<type>jar</type>

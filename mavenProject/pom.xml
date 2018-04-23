@@ -1,12 +1,13 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>br.com.rafaelsonego.mavenProject</groupId>
+	<groupId>com.rafaelsonego.mavenProject</groupId>
 	<artifactId>mavenProject</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<name>Project Name</name>
-	<description>Project description</description>
+	<name>Maven Project</name>
+	<description>Sample project using Maven and Spring</description>
 
 	<!-- PROPERTIES -->
 	<properties>
@@ -30,7 +31,7 @@
 				<artifactId>maven-war-plugin</artifactId>
 				<configuration>
 					<warName>mavenProject</warName>
-					<outputDirectory>C:\Users\rafae\jboss-eap-6.3\standalone\deployments</outputDirectory>
+					<!-- <outputDirectory>C:\Users\rafae\jboss-eap-6.3\standalone\deployments</outputDirectory> -->
 				</configuration>
 			</plugin>
 		</plugins>
@@ -56,4 +57,5 @@
 		<module>../mavenProject-core</module>
 		<module>../mavenProject-web</module>
 	</modules>
+	]
 </project>
