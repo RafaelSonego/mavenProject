@@ -5,6 +5,12 @@
 	<artifactId>mavenProject-web</artifactId>
 	<packaging>war</packaging>
 	<name>Project Web</name>
+	<parent>
+		<groupId>com.rafaelsonego.mavenProject</groupId>
+		<artifactId>mavenProject</artifactId>
+		<relativePath>../mavenProject/pom.xml</relativePath>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
 	<build>
 		<finalName>mavenProject-web</finalName>
 		<plugins>
@@ -21,12 +27,6 @@
 			</plugin>
 		</plugins>
 	</build>
-	<parent>
-		<groupId>com.rafaelsonego.mavenProject</groupId>
-		<artifactId>mavenProject</artifactId>
-		<relativePath>../mavenProject/pom.xml</relativePath>
-		<version>1.0.0-SNAPSHOT</version>
-	</parent>
 
 	<dependencies>
 
@@ -47,7 +47,6 @@
 			<artifactId>mavenProject-core</artifactId>
 			<version>1.0.0-SNAPSHOT</version>
 		</dependency>
-
 	</dependencies>
 
 </project>
