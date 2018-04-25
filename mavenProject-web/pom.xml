@@ -25,7 +25,21 @@
 					</webApp>
 				</configuration>
 			</plugin>
+			
+			<!--If you do not need to use the web.xml and want to remove the file, you need put 
+			this plugin otherwise the project will show an error -->
+			 
+<!-- 			<plugin> -->
+<!-- 				<groupId>org.apache.maven.plugins</groupId> -->
+<!-- 				<artifactId>maven-war-plugin</artifactId> -->
+<!-- 				<version>2.3</version> -->
+<!-- 				<configuration> -->
+<!-- 					<failOnMissingWebXml>false</failOnMissingWebXml> -->
+<!-- 				</configuration> -->
+<!-- 			</plugin> -->
+
 		</plugins>
+
 	</build>
 
 	<dependencies>
